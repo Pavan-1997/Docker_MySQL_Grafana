@@ -52,10 +52,10 @@ USE team;
 ```
 
 Step8: Create a table in the DB
-
+```
 CREATE TABLE person ( person_id INT NOT NULL PRIMARY KEY, fname VARCHAR(40) NULL, lname VARCHAR(40) NULL, age INT NOT NULL, created TIMESTAMP );
 
-
+```
 Step9: Check the tables
 
 show tables;
