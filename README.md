@@ -14,9 +14,9 @@
 
 
 Step1: Run Grafana
-
+```
 docker run -d --name=grafana -p 3001:3000 -v grafana_config:/etc/grafana -v grafana_data:/var/lib/grafana -v grafana_logs:/var/log/grafana grafana/grafana
-
+```
 
 Step2: Give password as admin:admin and set a new password
 
