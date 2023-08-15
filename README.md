@@ -37,9 +37,9 @@ mysql -u root -p password
 ```
 
 Step5: Look for DB's inside
-
+```
 show databases;
-
+```
 
 Step6: Create a DB
 
