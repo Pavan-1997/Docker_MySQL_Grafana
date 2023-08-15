@@ -47,9 +47,9 @@ create database team;
 ```
 
 Step7: Use the new created DB
-
+```
 USE team;
-
+```
 
 Step8: Create a table in the DB
 
