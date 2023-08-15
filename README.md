@@ -42,9 +42,9 @@ show databases;
 ```
 
 Step6: Create a DB
-
+```
 create database team;
-
+```
 
 Step7: Use the new created DB
 
