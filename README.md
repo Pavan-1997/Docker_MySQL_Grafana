@@ -70,17 +70,18 @@ INSERT INTO person (person_id, fname, lname, age) VALUES (4, 'Lucy', 'Dey', 32);
 ```
 Step11: Add Datasource to the Grafana
 
-Go to the Grafana dashboard select Data Sources give the following details:
-
+  Go to the Grafana dashboard select Data Sources give the following details:
+```
 Host - localhost:3306
 Database - Database Name
 User and Password 
-
-If you get any error: Command to add the port to firewall:
-
-firewall-cmd --permanent --zone=public --add-port=3306/tcp
-
-firewall-cmd --reload
+```
+  
+   If you get any error: Command to add the port to firewall:
+  
+   firewall-cmd --permanent --zone=public --add-port=3306/tcp
+  
+   firewall-cmd --reload
 
 
 Step12: Add a dashboard with add a panel 
