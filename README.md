@@ -10,7 +10,7 @@
 
 # Loading data into MySQL DB and visualizing data on Grafana 
 
-Preq: Setup Docker
+### Preq: Setup Docker
 
 
 Step1: Run Grafana
