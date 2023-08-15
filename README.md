@@ -62,13 +62,12 @@ show tables;
 ```
 
 Step10: Insert data into the table
-
+```
 INSERT INTO person (person_id, fname, lname, age) VALUES (1,'Peter','Engineer', 32);
 INSERT INTO person (person_id, fname, lname, age) VALUES (2, 'Richard', 'Gaol', 27);
 INSERT INTO person (person_id, fname, lname, age) VALUES (3, 'Howard', 'Ken', 38);
 INSERT INTO person (person_id, fname, lname, age) VALUES (4, 'Lucy', 'Dey', 32);
-
-
+```
 Step11: Add Datasource to the Grafana
 
 Go to the Grafana dashboard select Data Sources give the following details:
