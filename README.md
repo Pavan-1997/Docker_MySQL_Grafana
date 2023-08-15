@@ -57,9 +57,9 @@ CREATE TABLE person ( person_id INT NOT NULL PRIMARY KEY, fname VARCHAR(40) NULL
 
 ```
 Step9: Check the tables
-
+```
 show tables;
-
+```
 
 Step10: Insert data into the table
 
