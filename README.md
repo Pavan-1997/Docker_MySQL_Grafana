@@ -32,9 +32,9 @@ docker exec -it mysqldb bash
 ```
 
 Step5: Login to the MySQL
-
+```
 mysql -u root -p password 
-
+```
 
 Step5: Look for DB's inside
 
