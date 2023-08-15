@@ -8,7 +8,7 @@
 
 ---
 
-#  LOADING DATA TO MYSQL DB AND VISUALIZING IT IN GRAFANA
+# Loading data into MySQL DB and visualizing data on Grafana 
 
 Preq: Setup Docker
 
