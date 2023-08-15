@@ -27,9 +27,9 @@ docker run -d --name mysqldb -p 3306:3306 -v db_data:/var/lib/mysql -e MYSQL_ROO
 ```
 
 Step4: Login to the MySQL container
-
+```
 docker exec -it mysqldb bash
-
+```
 
 Step5: Login to the MySQL
 
