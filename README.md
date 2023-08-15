@@ -22,9 +22,9 @@ Step2: Give password as admin:admin and set a new password
 
 
 Step3: Run MySQL
-
+```
 docker run -d --name mysqldb -p 3306:3306 -v db_data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=password mysql:latest
-
+```
 
 Step4: Login to the MySQL container
 
